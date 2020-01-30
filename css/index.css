@@ -28,7 +28,7 @@ header ul {
 
 .main-container {
     height: 403px;
-    background-image: url(img/bg.png);
+    background-image: url(/pied_piper_landing_page/img/bg.png);
     display: flex;
 }
 
@@ -44,7 +44,7 @@ header ul {
 }
 
 .third-container {
-    background-image: url(img/second_bg.png);
+    background-image: url(/pied_piper_landing_page/img/second_bg.png);
     height: 483px;
 }
 
