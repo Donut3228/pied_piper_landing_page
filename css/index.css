@@ -59,7 +59,7 @@ header ul li:not(:last-of-type)::after {
 
 .main-container {
     height: 403px;
-    background-image: url(./img/bg.png);
+    background-image: url('./img/bg.png');
     display: flex;
 }
 
@@ -75,7 +75,7 @@ header ul li:not(:last-of-type)::after {
 }
 
 .third-container {
-    background-image: url(./img/second_bg.png);
+    background-image: url('./img/second_bg.png');
     height: 483px;
 }
 
