@@ -199,12 +199,33 @@ footer.container p {
   color: #ffffff;
 }
 
-
 @media only screen and (max-width: 768px) {
-    html {
-        font-size: 12px;
-    }
-    .the-team-row {
-        flex-direction: column;
-    }
+  html {
+    font-size: 10px;
+  }
+  .container {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  .container-inner {
+    width: 100%;
+  }
+  .the-team-row {
+    flex-direction: column;
+  }
+  .header nav ul {
+    display: none;
+  }
+  .ml-1_5 {
+    margin-left: unset;
+  }
+  .the-team-col {
+    max-width: 100%;
+  }
+  .ppc-container-inner img {
+    display: none;
+  }
+  .pipernet-is-here-heading {
+      margin: 5em 0;
+  }
 }
