@@ -198,3 +198,10 @@ footer.container p {
   font-size: 1.125rem;
   color: #ffffff;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .the-team-row {
+        flex-direction: column;
+    }
+}
