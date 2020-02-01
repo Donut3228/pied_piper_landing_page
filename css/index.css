@@ -206,6 +206,16 @@ footer.container p {
   .container {
     padding-left: 2em;
     padding-right: 2em;
+    animation-name: bg-animation;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    background-position: center;
+  }
+  @keyframes bg-animation {
+      from {background-size: 100%;}
+      50% {background-size: 600%;}
+      to {background-size: 100%;}
   }
   .container-inner {
     width: 100%;
