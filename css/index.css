@@ -11,6 +11,9 @@ html {
   color: #ffffff;
 }
 
+body {
+}
+
 h2 {
   color: #007765;
   font-size: 4rem;
@@ -108,6 +111,10 @@ p:not(:last-of-type) {
 .header {
   background-color: #007765;
   height: 84px;
+  position: sticky;
+  top: 0;
+  /* width: 100vw; */
+  z-index: 999;
 }
 
 .header nav {
@@ -118,10 +125,21 @@ p:not(:last-of-type) {
 .header ul {
   list-style: none;
   display: flex;
-  color: #ffffff;
   font-weight: 500;
   font-size: 1.5rem;
   margin: auto 0;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#the-problem:target, #ppc:target, #the-team:target {
+    display: block;
+    position: relative;
+    top: -132px;
+    visibility: hidden;
 }
 
 .header ul li:not(:last-of-type)::after {
